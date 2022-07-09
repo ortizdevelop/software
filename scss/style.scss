@@ -92,6 +92,7 @@ body{
 }
 
 .header {
+  margin-top: 1000px;
 
   &__logo {
     img{
@@ -106,29 +107,55 @@ body{
   }
 
 		&__menu-text {
-      margin: 50px 110px 0 235px;
+      margin: 50px 210px 0 235px;
       display: inline-block;
+      margin-right: 650px;
       
       a{
         color: $color1;
+      }
+
+      span{
+        padding: 20px;
+        &:hover{
+          color: $color3;
+          background-color: $color1;
+          padding: 20px;
+          border-radius: 45px;
+          transition-duration: 0.5s;
+        }
       }
 		}
 
 
 
   &__login {
-  }
+    display: inline-block;
+    margin: 0 150px 0 150px;
+    flex-direction: row;
 
-  &__link {
-    justify-content: flex-end;
+    span{
+      color: $color1;
+      padding: 20px;
 
-    ul{
-      border: 1px solid blue;
-      padding: 0 0 0 500px;
+      &:hover{
+        color: $color3;
+        background-color: $color1;
+        padding: 20px;
+        border-radius: 45px;
+        transition-duration: 0.5s;
+
+      }
     }
   }
+
+  &__link{
+    display: inline-block;
+    justify-content: right; //TODO: Доделать кнопки: позицию и анимацию
+    margin-left: 150px;
+  }
 }
-.container {
+.container {  
 border: 1px solid red;
 
 display: flex;
