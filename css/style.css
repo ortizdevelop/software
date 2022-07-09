@@ -94,9 +94,10 @@ body {
 }
 
 .header__menu {
-  font-size: 37px;
+  font-size: 57px;
   font-weight: bold;
   border: 1px solid red;
+  line-height: 30px;
 }
 
 .header__menu-text {
@@ -162,4 +163,69 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+
+.content-main {
+  margin: 516px 0 0 520px;
+  width: 1940px;
+}
+
+.content-main__title {
+  font-size: 67px;
+  font-weight: bold;
+}
+
+.content-main__title p {
+  color: #191d4a;
+}
+
+.content-main__text {
+  border: 1px solid #191d4a;
+  font-size: 327px;
+  width: 1937px;
+  height: 1032px;
+  letter-spacing: -8.18px;
+}
+
+.content-main__text span {
+  color: #191d4a;
+}
+
+.content-main__btn {
+  font-size: 67px;
+  margin-top: 272px;
+  font-weight: bold;
+}
+
+.content-main__btn a {
+  color: #191d4a;
+  letter-spacing: -1.68px;
+  padding: 83px 67px 87px 77px;
+  border-radius: 50px;
+  background: url("/img/ICON-ARROW-MAIN.png") right no-repeat, #e6e7fd;
+}
+
+.content-main__btn span {
+  margin-right: 30px;
+}
+
+.content-main__btn-down {
+  margin-top: 391px;
+  padding: 210px 30px 30px 230px;
+  background-color: #e6e7fd;
+  width: 530px;
+  height: 500px;
+}
+
+.content-left {
+  width: 520px;
+  line-height: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+  margin: 0 0 900px 0;
 }

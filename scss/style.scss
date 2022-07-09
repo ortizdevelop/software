@@ -101,9 +101,10 @@ body{
   }
 
   &__menu {
-    font-size: 37px;
+    font-size: 57px;
     font-weight: bold;
     border: 1px solid red;
+    line-height: 30px;
   }
 
 		&__menu-text {
@@ -161,4 +162,83 @@ border: 1px solid red;
 display: flex;
 flex-direction: column;
 }
+
+.content-main {
+
+  &__title {
+  }
+
+  &__text {
+  }
+
+  &__btn {
+  }
+}
+.content-main {
+  margin: 516px 0 0 520px;
+  width: 1940px;
+
+  &__title {
+    font-size: 67px;
+    font-weight: bold;
+
+    p{
+      color: $color1;
+    }
+  }
+
+  &__text {
+    border: 1px solid $color1;
+    font-size: 327px;
+    width: 1937px;
+    height: 1032px;
+    letter-spacing: -8.18px;
+
+    span{
+      color: $color1;
+    }
+  }
+
+  &__btn {
+    font-size: 67px;
+    margin-top: 272px;
+    font-weight: bold;
+
+    a{
+      color: $color1;
+      letter-spacing: -1.68px;
+      padding: 83px 67px 87px 77px;
+      border-radius: 50px;
+      background: url('/img/ICON-ARROW-MAIN.png') right no-repeat, $color3;
+    }
+
+    span{
+      margin-right: 30px;
+    }
+  }
+
+  &__btn-down{
+    margin-top: 391px;
+    padding: 210px 30px 30px 230px;
+    background-color: $color3;
+    width: 530px;
+    height: 500px;
+  }
+}
+
+.content-left {
+  width: 520px;
+  line-height: 500px;
+  display: flex;
+  flex-direction: column-reverse;
+  margin: 0 0 900px 0;
+  &__author {
+  }
+
+  &__media {
+  }
+}
+.container {
+}
+
 
