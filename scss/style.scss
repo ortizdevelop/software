@@ -117,12 +117,17 @@ body{
 
       span{
         padding: 20px;
+
         &:hover{
           color: $color3;
           background-color: $color1;
           padding: 20px;
           border-radius: 45px;
-          transition-duration: 0.5s;
+          transition-duration: 0.76s;
+        }
+
+        &:active{
+          opacity: 0.5;
         }
       }
 		}

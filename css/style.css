@@ -118,8 +118,12 @@ body {
   background-color: #191d4a;
   padding: 20px;
   border-radius: 45px;
-  -webkit-transition-duration: 0.5s;
-          transition-duration: 0.5s;
+  -webkit-transition-duration: 0.76s;
+          transition-duration: 0.76s;
+}
+
+.header__menu-text span:active {
+  opacity: 0.5;
 }
 
 .header__login {
