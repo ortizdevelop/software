@@ -96,7 +96,6 @@ body {
 .header__menu {
   font-size: 57px;
   font-weight: bold;
-  border: 1px solid red;
   line-height: 30px;
 }
 
@@ -155,7 +154,6 @@ body {
 }
 
 .container {
-  border: 1px solid red;
   background: url("/img/bg.png");
   display: -webkit-box;
   display: -ms-flexbox;
@@ -184,8 +182,7 @@ body {
 }
 
 .content-main__text {
-  border: 1px solid #191d4a;
-  font-size: 327px;
+  font-size: 338px;
   width: 1937px;
   height: 1032px;
   letter-spacing: -8.18px;
@@ -246,5 +243,12 @@ body {
 }
 
 .content-main__right {
-  margin-left: 1556px;
+  position: absolute;
+  -webkit-transform: translate(2520px, 598px);
+          transform: translate(2520px, 598px);
+}
+
+.content-main__right-img img {
+  width: 2900px;
+  height: 2715px;
 }

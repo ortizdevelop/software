@@ -103,7 +103,6 @@ body{
   &__menu {
     font-size: 57px;
     font-weight: bold;
-    border: 1px solid red;
     line-height: 30px;
   }
 
@@ -157,9 +156,7 @@ body{
   }
 }
 .container {  
-border: 1px solid red;
 background: url('/img/bg.png');
-
 display: flex;
 flex-direction: column;
 }
@@ -169,7 +166,6 @@ flex-direction: column;
   width: 5430px;
   max-height: 0px;
   line-height: -09px;
-  // background-color: $color3;
 
   &__title {
     margin-left: 520px;
@@ -182,8 +178,7 @@ flex-direction: column;
   }
 
   &__text {
-    border: 1px solid $color1;
-    font-size: 327px;
+    font-size: 338px;
     width: 1937px;
     height: 1032px;
     letter-spacing: -8.18px;
@@ -196,7 +191,7 @@ flex-direction: column;
 
   &__btn {
     font-size: 67px;
-    margin-top: 272px;
+    margin-top: 272px;    //TODO: Изменить цвет блока
     font-weight: bold;
     margin-left: 520px;
 
@@ -223,13 +218,11 @@ flex-direction: column;
 
 	&__left {
       width: 300px;
-      // background: url('/img/bg.png');
-      // background-color: $color1;
-      overflow: hidden;
+      overflow: hidden; //TODO: Убрать фон у блока
 		}
 
 	&__left-author {
-      writing-mode: vertical-lr;
+      writing-mode: vertical-lr;    
       margin-bottom: 100px;
       span{
         font-size: 67px;
@@ -245,11 +238,15 @@ flex-direction: column;
 		}
 
 		&__right {
-      margin-left: 1556px;
+      position: absolute;
+      transform: translate(2520px, 598px);
 		}
 
 		&__right-img {
-      
+      img{
+        width: 2900px;
+        height: 2715px;
+      }
 		}
 }
 
