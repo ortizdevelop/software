@@ -157,7 +157,7 @@ body{
   }
 }
 .container {  
-// border: 1px solid red;
+border: 1px solid red;
 background: url('/img/bg.png');
 
 display: flex;
@@ -166,7 +166,7 @@ flex-direction: column;
 
 .content-main {
   margin: 516px 0 0 0;
-  width: 2460px;
+  width: 5430px;
   max-height: 0px;
   line-height: -09px;
   // background-color: $color3;
@@ -242,6 +242,14 @@ flex-direction: column;
       li{
         margin-bottom: 170px;
       }
+		}
+
+		&__right {
+      margin-left: 1556px;
+		}
+
+		&__right-img {
+      
 		}
 }
 
